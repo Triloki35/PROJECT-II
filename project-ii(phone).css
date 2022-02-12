@@ -1,0 +1,94 @@
+/******8 css of header ********/
+body header::before{
+    height: 68%;
+}
+body header{
+    height: 280px;
+}
+
+/****** css of nav ******/
+
+#nav{
+    flex-direction: column;
+}
+
+#logo{
+    margin: 0px 222px;
+}
+
+#nav #logo img{
+    height: 60px;
+    width: 60px;
+}
+
+#nav #navbar ul li a{
+    font-size: smaller;
+    margin: 15px;
+}
+
+#nav #search{
+    justify-content: center;
+}
+
+#nav #search input{
+    font-size: 8px;
+    font-weight:bolder;
+    height: 15px;
+    width: 70px;
+    border-radius: 5px;
+
+}
+#nav #search button{
+    height: 15px;
+    width: 22px;
+    border-radius: 5px;
+}
+
+/***** css of welcome-section *****/
+
+#section-welcome div h1 {
+    /* border: 2px solid green; */
+    font-size: 1rem;
+}
+
+#section-welcome div p{
+    margin: 0px;
+}
+
+
+/******* css of services-section ********/
+
+#services{
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .box{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+}
+
+#services .box img{
+    height: 50px;
+    width: 50px;
+}
+#services .box ul{
+    left: 62px;
+    margin: -4px 0px;
+}
+
+#services div h1{
+    font-size: small;
+
+}
+
+#services div a{
+    font-size: small;
+}
+
+/******************** css of register-section ***************/
+
+#section-register::before{
+    height: 100%;
+}
